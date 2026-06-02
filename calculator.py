@@ -23,7 +23,7 @@ def calculator():
 
         choice = input("Enter your choice (1-5): ")
 
-        
+
         if choice == '5':
             print("Calculator Closed")
             break
@@ -45,5 +45,5 @@ def calculator():
                 print("Result =", divide(num1, num2))
 
         else:
-            print("Invalid Choice! Please enter between 1 to 5
+            print("Invalid Choice! Please enter between 1 to 5")
 calculator()
